@@ -1,0 +1,9 @@
+INFO Application started successfully
+WARNING Disk space is getting low
+ERROR Failed to connect to database
+INFO User logged in
+ERROR Timeout while reading response
+WARNING High memory usage detected
+INFO Application stopped
+error File not found
+
