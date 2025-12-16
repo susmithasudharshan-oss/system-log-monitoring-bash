@@ -1,0 +1,18 @@
+# Bash Scripting Interview Revision Sheet
+1. Check if file exists: if [[ -f filename ]]; then echo "File exists"; fi
+2. Count lines with "error": grep -ic error file
+3. Read input: read -p "Enter: " var
+4. For loop 1-10: for i in {1..10}; do echo $i; done
+5. Define function: my_func() { echo "Hi"; }
+6. Call function: my_func
+7. Menu with case statement
+8. Disk usage: df -h /
+9. Disk alert if >80%: [[ $disk -gt 80 ]] && echo "Alert"
+10. Backup folder: backup="backup_$(date +%F)"; mkdir $backup; cp *.txt *.sh *.log $backup
+11. Delete old backups: find . -type d -name "backup_*" -mtime +7 -exec rm -rf {} \;
+12. Count files in folder: find backup_dir -type f | wc -l
+13. Internet check: ping -c 1 www.google.com; [[ $? -eq 0 ]] && echo "Connected"
+14. Package install check: dpkg -s package || apt install -y package
+15. Root check: [[ $EUID -ne 0 ]] && echo "Run as root" && exit 1
+16. Date, user, uptime: date; echo $USER; uptime -p
+17. Cron example: 0 2 * * * /path/to/log_monitor.sh server.log
