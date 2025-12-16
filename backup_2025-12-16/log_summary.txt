@@ -1,0 +1,10 @@
+Log Summary Report
+Generated on: Tue Dec 16 08:26:02 UTC 2025
+----------------------
+ERROR count: 3
+WARNING count: 3
+
+ERROR Lines:
+4:ERROR Failed to connect to database
+7:ERROR Timeout occurred while processing request
+9:ERROR Unable to open configuration file

@@ -1,0 +1,11 @@
+INFO Server started successfully
+INFO Listening on port 8080
+WARNING Disk space is low
+ERROR Failed to connect to database
+INFO User logged in
+WARNING High memory usage detected
+ERROR Timeout occurred while processing request
+INFO Scheduled job completed
+ERROR Unable to open configuration file
+WARNING CPU usage above threshold
+
